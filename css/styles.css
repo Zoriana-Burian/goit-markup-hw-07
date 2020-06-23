@@ -426,7 +426,7 @@ color: var(--title-text-color)
 }
 .form-checkbox:checked ~ .checkbox-icon {
     background-color: var(--accent-color);
-    background-image: url(../images/icon\ check.svg);
+    background-image: url(../images/check.svg);
     background-size: contain;
     background-origin: border-box;
     border-color: var(--accent-color);
@@ -704,7 +704,8 @@ color: var(--title-text-color)
 }
 
 .chain-icon:hover {
-    fill: var(--primary-bg-colot)
+    fill: var(--primary-bg-colot);
+    
 }
 
 .card {
